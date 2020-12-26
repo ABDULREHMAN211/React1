@@ -1,25 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import HELLO from'./HELLO';
+function App({name,age}){
+  return <div>Our Creator is great{name} AGE:{age-10}
+  <br/>
+  <HELLO firstName={name}></HELLO>
+</div>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
 }
+
 
 export default App;
