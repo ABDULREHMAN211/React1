@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 ReactDOM.render(
-  <div><App name="HAR" age={25}/></div>,
+  <div className="myName"><App name={<strong>HAR</strong>}age={25}/>
+  </div>,
   document.getElementById('root')
 );
 

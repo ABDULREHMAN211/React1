@@ -1,3 +1,12 @@
 .myName{
-    background-color: skyblue;
+    background-color: lightgray
+}
+.foods{
+    background-color: lightcoral;
+}
+.drinks{
+background-color: lightslategrey;
+}
+.top{
+background-color: lightgreen;
 }
